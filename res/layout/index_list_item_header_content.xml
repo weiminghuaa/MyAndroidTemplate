@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:paddingTop="@dimen/size_h3">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/right_sliding_menu_avatar_size"
+        android:layout_height="@dimen/right_sliding_menu_avatar_size"
+        android:src="@drawable/iconnews_jc" />
+
+    <TextView
+        android:id="@+id/username"
+        style="@style/TextAppearance.four.blue"
+        android:layout_marginLeft="@dimen/size_h4"
+        android:layout_toRightOf="@+id/avatar"
+        android:text="weiminghua" />
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="@dimen/index_image_size1"
+        android:layout_height="@dimen/index_image_size1"
+        android:layout_alignBottom="@+id/avatar"
+        android:layout_marginLeft="@dimen/size_h4"
+        android:layout_toRightOf="@+id/avatar"
+        android:background="@drawable/iconshare_weixin" />
+
+    <TextView
+        style="@style/TextAppearance.four.gray"
+        android:layout_alignBottom="@+id/avatar"
+        android:layout_toRightOf="@+id/icon1"
+        android:text="www.weiminghua.com" />
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/TextAppearance.four.gray"
+        android:layout_alignBottom="@+id/username"
+        android:layout_alignParentRight="true"
+        android:text="1小时" />
+
+    <ImageView
+        android:layout_width="@dimen/index_image_size1"
+        android:layout_height="@dimen/index_image_size1"
+        android:layout_alignBottom="@+id/time"
+        android:layout_toLeftOf="@+id/time"
+        android:background="@drawable/iconshare_weixin" />
+
+</RelativeLayout>

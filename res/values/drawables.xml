@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="trans">#00000000</item>
+    <item type="drawable" name="white">#ffffff</item>
+    <item type="drawable" name="listselectbg">#c6c9cc</item>
+    <item type="drawable" name="spilt">#C6C9CC</item>
+</resources>

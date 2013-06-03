@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 主题样式 -->
+    <style name="customWindowTitleBackground">
+        <item name="android:background">@drawable/top</item>
+    </style>
+
+    <style name="anim.right" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_right_out</item>
+    </style>
+
+    <style name="customEditText" parent="@android:style/Widget.EditText">
+
+        <!-- <item name="android:background">@drawable/single_round_shape</item> -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="customListView" parent="@android:style/Widget.ListView">
+        <item name="android:scrollingCache">false</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:divider">@drawable/listview_divider</item>
+        <item name="android:dividerHeight">2.0px</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+    </style>
+
+    <style name="customScrollView" parent="@android:style/Widget.ScrollView">
+        <item name="android:scrollingCache">false</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="Default" parent="@android:style/Theme.Light">
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+        <!-- <item name="android:windowBackground">@color/background_color</item> -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">48dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/customWindowTitleBackground</item>
+        <item name="android:editTextStyle">@style/customEditText</item>
+        <item name="android:listViewStyle">@style/customListView</item>
+        <item name="android:scrollViewStyle">@style/customScrollView</item>
+        <item name="android:windowAnimationStyle">@style/anim.right</item>
+    </style>
+
+    <style name="Default.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Default.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Default.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- 文字样式 -->
+    <style name="TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextAppearance.one">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_h1</item>
+    </style>
+
+    <style name="TextAppearance.two">
+        <item name="android:textSize">@dimen/text_h2</item>
+    </style>
+
+    <style name="TextAppearance.two.white">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.two.gray">
+        <item name="android:textColor">@color/text_color_content</item>
+    </style>
+
+    <style name="TextAppearance.two.yellow">
+        <item name="android:textColor">@color/text_color_yellow</item>
+    </style>
+
+    <style name="TextAppearance.two.black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextAppearance.three">
+        <item name="android:textSize">@dimen/text_h3</item>
+    </style>
+
+    <style name="TextAppearance.three.black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextAppearance.three.gray">
+        <item name="android:textColor">@color/text_color_sub_titile</item>
+    </style>
+
+    <style name="TextAppearance.three.white">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.three.red">
+        <item name="android:textColor">@color/text_color_red</item>
+    </style>
+
+    <style name="TextAppearance.three.green">
+        <item name="android:textColor">@color/text_color_green</item>
+    </style>
+
+    <style name="TextAppearance.four">
+        <item name="android:textSize">@dimen/text_h4</item>
+    </style>
+
+    <style name="TextAppearance.four.white">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.four.black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextAppearance.four.gray">
+        <item name="android:textColor">@color/text_color_sub_titile</item>
+    </style>
+    
+    <style name="TextAppearance.four.blue">
+        <item name="android:textColor">#023b88</item>
+    </style>
+
+    <style name="TextAppearance.five">
+        <item name="android:textSize">@dimen/text_h5</item>
+    </style>
+
+    <style name="TextAppearance.five.gray">
+        <item name="android:textColor">@color/text_color_tip</item>
+    </style>
+
+    <style name="TextAppearance.five.yellow">
+        <item name="android:textColor">@color/text_color_yellow</item>
+    </style>
+
+    <style name="TextAppearance.maintab">
+        <item name="android:textSize">@dimen/text_h6</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- right sliding menu button 样式 -->
+    <style name="RightSlidingMenuButton">
+       <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_deepgrey</item>
+        <item name="android:paddingLeft">@dimen/size_h3</item>
+        <item name="android:paddingRight">@dimen/size_h3</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_h2</item>
+    </style>
+
+</resources>

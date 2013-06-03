@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/right_sliding_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_nav_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_h4" >
+
+        <ImageView
+            android:layout_width="@dimen/right_sliding_menu_avatar_size"
+            android:layout_height="@dimen/right_sliding_menu_avatar_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/size_h3"
+            android:src="@drawable/icon_default_head_circle"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            style="@style/RightSlidingMenuButton"
+            android:layout_centerInParent="true"
+            android:text="登录"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            style="@style/RightSlidingMenuButton"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size_h3"
+            android:text="注册"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/username"
+            style="@style/TextAppearance.two.white"
+            android:layout_centerInParent="true"
+            android:text="weiminghua" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            style="@style/RightSlidingMenuButton"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size_h3"
+            android:text="退出" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/rightSlidingMenuListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

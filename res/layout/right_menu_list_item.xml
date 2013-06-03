@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="模拟交易"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:id="@+id/right_list_item_title"
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不再是简单的自娱自乐，更能在你的交易中实时指出常被忽视的亏损根源"
+        android:id="@+id/right_list_item_content"
+        android:textSize="14sp"
+        android:textColor="#909090"
+        />
+
+</LinearLayout>

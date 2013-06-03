@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- other -->
+    <item name="selected_view" type="id"/>
+    <item name="submit" type="id"></item>
+    <item name="time" type="id"></item>
+    <item name="title" type="id"></item>
+    <item name="content" type="id"></item>
+    <item name="reason" type="id"></item>
+    <item name="tip" type="id"></item>
+    <item name="price" type="id"></item>
+    <item name="profit" type="id"></item>
+    <item name="arrow" type="id"></item>
+    <item name="login_out" type="id"></item>
+    <item name="send" type="id"></item>
+    <item name="share" type="id"></item>
+
+    <!-- main_tab.xml -->
+    <item name="rss_btn" type="id"></item>
+    <item name="find_paw" type="id"></item>
+    <item name="to_sina_weibo" type="id"></item>
+    <item name="to_qq_weibo" type="id"></item>
+
+    <!-- dialog.xml -->
+    <item name="dialog_title" type="id"></item>
+    <item name="dialog_message" type="id"></item>
+    <item name="dialog_left_btn" type="id"></item>
+    <item name="dialog_right_btn" type="id"></item>
+    <item name="cancel" type="id"></item>
+
+    <!-- dialog_progress.xml -->
+    <item name="progress_tips" type="id"></item>
+
+    <!-- mylistview_head.xml -->
+    <item name="head_contentLayout" type="id"></item>
+    <item name="head_arrowImageView" type="id"></item>
+    <item name="head_progressBar" type="id"></item>
+    <item name="head_tipsTextView" type="id"></item>
+    <item name="head_lastUpdatedTextView" type="id"></item>
+    
+    <!-- mylistview_footer.xml -->
+    <item name="load_more_data" type="id"></item>
+    <item name="load_data_progress" type="id"></item>
+
+    <!-- tableview.xml -->
+    <item name="left_header" type="id"></item>
+    <item name="left_arrow" type="id"></item>
+    <item name="right_header" type="id"></item>
+    <item name="right_arrow" type="id"></item>
+    <item name="h2" type="id"></item>
+    <item name="h1" type="id"></item>
+    <item name="left_part_list" type="id"></item>
+    <item name="right_part_list" type="id"></item>
+
+    <!-- stock_contrive_poinits.xml -->
+    <item name="stock_name" type="id"></item>
+    <item name="stock_type" type="id"></item>
+    <item name="stock_star" type="id"></item>
+    <item name="stock_plate" type="id"></item>
+    <item name="stock_selecttime" type="id"></item>
+    <item name="contrive_points" type="id"></item>
+    <item name="market_strategy" type="id"></item>
+    <item name="banker" type="id"></item>
+    <item name="remark" type="id"></item>
+
+    <!-- fund_operation_list_group_item.xml -->
+    <item name="trade_time" type="id"></item>
+    <item name="trade_day_img" type="id"></item>
+    <item name="trade_type" type="id"></item>
+    <item name="trade_stock" type="id"></item>
+    <item name="trade_number" type="id"></item>
+    <item name="trade_price" type="id"></item>
+
+    <!-- fund_overview.xml -->
+    <item name="fund_list_report_title" type="id"></item>
+    <item name="fund_list_report_time" type="id"></item>
+    <item name="fund_list_report_content" type="id"></item>
+
+    <!-- fund_rank_header.xml -->
+    <item name="fund_rank_header" type="id"></item>
+    <item name="fund_invest_result" type="id"></item>
+    <item name="fund_invest_combination" type="id"></item>
+    <item name="fund_operation_summarize" type="id"></item>
+
+    <!-- fund_account.xml -->
+    <item name="current_hold_layout" type="id"></item>
+    <item name="operation_result" type="id"></item>
+    <item name="fund_operation_history_categories_list" type="id"></item>
+
+    <!-- fund_rank_item.xml -->
+    <item name="fund_rank" type="id"></item>
+    <item name="fund_profit_percent" type="id"></item>
+    <item name="fund_rss" type="id"></item>
+    <item name="fund_rss_number" type="id"></item>
+    <item name="fund_trade_day_img" type="id"></item>
+    <item name="fund_trade_time" type="id"></item>
+    <item name="fund_trade_price" type="id"></item>
+    <item name="fund_trade_type" type="id"></item>
+    <item name="fund_trade_stock" type="id"></item>
+
+    <!-- fund_rss_item.xml -->
+    <item name="read_image" type="id"></item>
+    <item name="fund_subtitle" type="id"></item>
+
+    <!-- fund.xml -->
+    <item name="fund_talk" type="id"></item>
+    <item name="fund_share" type="id"></item>
+    <item name="fund_profit" type="id"></item>
+    <item name="fund_number" type="id"></item>
+
+    <!-- stock_operation_history_tableview_left_header.xml -->
+    <item name="left_header_text" type="id"></item>
+
+    <!-- stock_operation_history.xml -->
+    <item name="stock_operation_history_table" type="id"></item>
+
+    <!-- stock_report_list_item.xml -->
+    <item name="stock_report_title" type="id"></item>
+    <item name="stock_report_time" type="id"></item>
+
+    <!-- share_edit.xml -->
+    <item name="share_text" type="id"></item>
+
+    <!-- share_selector.xml -->
+    <item name="sina" type="id"></item>
+    <item name="tencent" type="id"></item>
+    <item name="weixin" type="id"></item>
+    <item name="renren" type="id"></item>
+    <item name="sms" type="id"></item>
+    <item name="more_share_layout" type="id"></item>
+
+    <!-- focus_reason_view.xml -->
+    <item name="detail" type="id"></item>
+    <item name="focus_tab_top" type="id"></item>
+    <item name="focus_tab_middle" type="id"></item>
+    <item name="focus_tab_bottom" type="id"></item>
+    <item name="operate_time" type="id"></item>
+    <item name="fund_name" type="id"></item>
+
+    <!-- title.xml -->
+    <item name="titlebar_back" type="id"></item>
+    <item name="titlebar_refresh" type="id"></item>
+    <item name="titlebar_name" type="id"></item>
+    <item name="titlebar_right" type="id"></item>
+    <item name="view" type="id"></item>
+    <item name="list" type="id"></item>
+
+    <!-- set.xml -->
+    <item name="set_person_info" type="id"></item>
+    <item name="set_person_account" type="id"></item>
+    <item name="set_aboutus" type="id"></item>
+    <item name="set_plug" type="id"></item>
+    <item name="set_accept_sms" type="id"></item>
+    <item name="set_login_out" type="id"></item>
+    <item name="set_fee" type="id"></item>
+    <item name="set_commission" type="id"></item>
+    <item name="set_bind_phone" type="id"></item>
+    <item name="head_photo_layout" type="id"></item>
+    <item name="head_photo_image" type="id"></item>
+    <item name="introduction_text" type="id"></item>
+    <item name="city_text" type="id"></item>
+    <item name="sex_text" type="id"></item>
+    <item name="nick_name_text" type="id"></item>
+    <item name="plug_stock_clues" type="id"></item>
+    <item name="plug_light_pe" type="id"></item>
+    <item name="plug_investor_union" type="id"></item>
+    <item name="plug_light_pe_star" type="id"></item>
+    <item name="plug_hgd_king" type="id"></item>
+    <item name="evaluate" type="id"></item>
+    <item name="contact_phone" type="id"></item>
+    <item name="hgd_roger_text" type="id"></item>
+    <item name="hgd_gentleman_text" type="id"></item>
+    <item name="hgd_king_text" type="id"></item>
+    <item name="company" type="id"></item>
+    <item name="claim" type="id"></item>
+    <item name="income_info" type="id"></item>
+    <item name="expense_info" type="id"></item>
+    <item name="balance" type="id"></item>
+    <item name="mobile_number" type="id"></item>
+    <item name="verfication_code" type="id"></item>
+    <item name="bind_btn" type="id"></item>
+    <item name="get_verfication_code_text" type="id"></item>
+    <item name="get_verfication_code_btn" type="id"></item>
+    <item name="timer" type="id"></item>
+    <item name="find_btn" type="id"></item>
+    <item name="production" type="id"></item>
+
+    <!-- login.xml -->
+    <item name="tab_bg" type="id"></item>
+    <item name="tab_icon" type="id"></item>
+    <item name="tab_title" type="id"></item>
+    <item name="username" type="id"></item>
+    <item name="password" type="id"></item>
+    <item name="password_again" type="id"></item>
+    <item name="invite_code" type="id"></item>
+    <item name="login_btn" type="id"></item>
+    <item name="auto_login" type="id"></item>
+    <item name="register_btn" type="id"></item>
+    <item name="to_register" type="id"></item>
+    <item name="to_login" type="id"></item>
+    <item name="login_illustrate" type="id"></item>
+    <item name="register_phone" type="id"></item>
+    <item name="register_mail" type="id"></item>
+    <item name="email" type="id"></item>
+    <item name="autologin_chk" type="id"></item>
+
+    <!-- weibo_login.xml -->
+    <item name="progress" type="id"></item>
+    <item name="webview" type="id"></item>
+    <item name="loading" type="id"></item>
+
+    <!-- find_password.xml -->
+    <item name="verfication_code_answer" type="id"></item>
+
+    <!-- set_list_item.xml -->
+    <item name="set_list_group_header" type="id"></item>
+    <item name="set_list_item_text" type="id"></item>
+
+    <!-- aboutus.xml -->
+    <item name="aboutus_web_btn" type="id"></item>
+    <item name="aboutus_weibo_btn" type="id"></item>
+    <item name="aboutus_versionName" type="id"></item>
+
+    <!-- whatisnew.xml -->
+    <item name="whatisnew_pager" type="id"></item>
+    <item name="whatisnew_dots_layout" type="id"></item>
+
+    <!-- chat.xml -->
+    <item name="chat_viewStub" type="id"></item>
+    <item name="msg_text" type="id"></item>
+    <item name="emoview_btn" type="id"></item>
+    <item name="left_msg" type="id"></item>
+    <item name="left_time" type="id"></item>
+    <item name="right_msg" type="id"></item>
+    <item name="right_time" type="id"></item>
+    <item name="chat_emotion" type="id"></item>
+
+    <!-- 帐号与密码 -->
+    <item name="etPassOld" type="id"></item>
+    <item name="etPassNew" type="id"></item>
+    <item name="etPassAgain" type="id"></item>
+    <item name="btnSave" type="id"></item>
+
+    <!-- welcome_item05.xml -->
+    <item name="welcome_benefit01" type="id"></item>
+    <item name="welcome_benefit02" type="id"></item>
+    <item name="welcome_benefit03" type="id"></item>
+    <item name="welcome_benefit04" type="id"></item>
+    <item name="welcome_benefit05" type="id"></item>
+    <item name="welcome_benefit06" type="id"></item>
+    <item name="welcome_benefit07" type="id"></item>
+    <item name="welcome_benefit08" type="id"></item>
+    <item name="welcome_benefit09" type="id"></item>
+    <item name="welcome_benefit10" type="id"></item>
+    <item name="welcome_check01" type="id"></item>
+    <item name="welcome_check02" type="id"></item>
+    <item name="welcome_check03" type="id"></item>
+    <item name="welcome_check04" type="id"></item>
+    <item name="welcome_check05" type="id"></item>
+    <item name="welcome_check06" type="id"></item>
+    <item name="welcome_check07" type="id"></item>
+    <item name="welcome_check08" type="id"></item>
+    <item name="welcome_check09" type="id"></item>
+    <item name="welcome_check10" type="id"></item>
+
+    <!-- notice.xml -->
+    <item name="notice_content" type="id"></item>
+    <item name="notice_title" type="id"></item>
+    <item name="notice_source" type="id"></item>
+    
+    <!-- esoterica.xml -->
+    <item name="invest_type1" type="id"></item><!-- 敏感型 -->
+    <item name="invest_type2" type="id"></item><!-- 思考型 -->
+    <item name="invest_type3" type="id"></item><!-- 自主型 -->
+    <item name="invest_type4" type="id"></item><!-- 激进型 -->
+    <item name="invest_type5" type="id"></item><!-- 战斗型 -->
+    
+    <item name="question_one" type="id"></item>
+    <item name="question_two" type="id"></item>
+    <item name="question_three" type="id"></item>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@id/left_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <com.wlstock.fund.widget.HorizontalScrollCoverView
+            android:id="@id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0.0px"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@id/right_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </com.wlstock.fund.widget.HorizontalScrollCoverView>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true" >
+
+            <com.wlstock.fund.widget.NoScrollListView
+                android:id="@id/left_part_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.wlstock.fund.widget.HorizontalScrollCoveredView
+                android:id="@id/h1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none"
+                android:fadingEdgeLength="0.0px"
+                android:layout_toRightOf="@+id/left_part_list"
+                android:scrollbars="none" >
+
+                <com.wlstock.fund.widget.NoScrollListView
+                    android:id="@id/right_part_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </com.wlstock.fund.widget.HorizontalScrollCoveredView>
+            
+            <LinearLayout
+                android:id="@+id/footer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/left_part_list"
+                android:gravity="center"
+                android:visibility="gone" />
+            
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

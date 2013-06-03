@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_nav_bg" >
+
+    <ImageView
+        android:id="@+id/leftNavAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_nav_ad" />
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="@dimen/left_sliding_menu_left_width"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/leftNavAd"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="@dimen/left_sliding_menu_split_line_width"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/left_nav_bar" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="100dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/topTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="栏\n目\n1"
+                    android:textColor="@color/left_sliding_menu_text_color"
+                    android:textSize="@dimen/text_h1" />
+
+                <View
+                    android:id="@+id/topChooseLine"
+                    android:layout_width="@dimen/left_sliding_menu_split_line_width"
+                    android:layout_height="@dimen/left_sliding_menu_split_choose_line_height"
+                    android:background="@drawable/left_nav_choosebar" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/bottomTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="栏\n目\n2"
+                    android:textColor="@color/left_sliding_menu_text_color"
+                    android:textSize="@dimen/text_h1" />
+
+                <View
+                    android:id="@+id/bottomChooseLine"
+                    android:layout_width="@dimen/left_sliding_menu_split_line_width"
+                    android:layout_height="@dimen/left_sliding_menu_split_choose_line_height"
+                    android:background="@drawable/left_nav_choosebar"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/leftNavAd"
+        android:layout_toRightOf="@+id/layout1" >
+
+        <ListView
+            android:id="@+id/previousListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:id="@+id/nextListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </ViewFlipper>
+
+</RelativeLayout>

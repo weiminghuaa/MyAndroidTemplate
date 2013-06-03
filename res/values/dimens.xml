@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 文字大小 -->
+    <dimen name="text_h1">22sp</dimen><!-- 适用于标题，抬头 -->
+    <dimen name="text_h2">18sp</dimen><!-- 适用于正文，文本，切换按钮等 -->
+    <dimen name="text_h3">16sp</dimen><!-- 试用于标题下级概括文本等 -->
+    <dimen name="text_h4">14sp</dimen><!-- 适用于级别最低的提示性文本 -->
+    <dimen name="text_h5">10sp</dimen>
+    <dimen name="text_h6">13sp</dimen><!-- 专用于底部tab -->
+    <dimen  name="text_h7">12sp</dimen><!-- 专用于引导页的排行第一二  -->
+    <dimen name="text_fund_number">40sp</dimen><!-- 专用于底部tab -->
+    
+    <!-- padding或marging的大小 -->
+    <dimen name="size_h1">22.0dip</dimen>
+    <dimen name="size_h2">16.0dip</dimen>
+    <dimen name="size_h3">10.0dip</dimen>
+    <dimen name="size_h4">5.0dip</dimen>
+    <dimen name="size_h5">3.0dip</dimen>
+    
+    <!-- left sliding menu的左边导航 -->
+    <dimen name="left_sliding_menu_left_width">60.0dip</dimen>
+    <dimen name="left_sliding_menu_split_line_width">8.0dip</dimen>
+    <dimen name="left_sliding_menu_split_choose_line_height">100.0dip</dimen>
+
+    <!-- right sliding menu的右边导航 -->
+    <dimen name="right_sliding_menu_avatar_size">40.0dip</dimen>
+   
+    <!-- self_selected_stock_edit的左边删除按钮的宽度 -->
+    <dimen name="self_selected_stock_edit_delete_button_width">60.0dip</dimen>
+    <!-- self_selected_stock_edit的按钮的高度 -->
+    <dimen name="self_selected_stock_edit_button_height">30.0dip</dimen>
+    
+    <!-- index -->
+    <dimen name="index_image_size1">15.0dip</dimen>
+    <dimen name="index_image_size2">20.0dip</dimen>
+    <dimen name="index_button_size">50.0dip</dimen>
+    <dimen name="index_content_image_size">270.0dip</dimen>
+    
+    <!-- EditText的高度 -->
+    <dimen name="editText_height">40.0dip</dimen>
+    <!-- 自选股EditText的高度 -->
+    <dimen name="self_selected_stock_search_editText_paddingLeft">60.0dip</dimen>
+    <!-- 提问editText的高度 -->
+    <dimen name="chat_editText_height">88.0dip</dimen>
+    
+    <!-- tabbar的高度 -->
+    <dimen name="tabbar_height">48.0dip</dimen>
+    
+    <!-- tableview的行高\列宽 -->
+    <dimen name="tableview_rowheight">40.0dip</dimen>
+    <dimen name="tableview_columnwidth">80.0dip</dimen>
+    <dimen name="tableview_leftpartwidth">100.0dip</dimen>
+    
+    <!-- 除miantab外的othertab的margintop -->
+    <dimen name="othertab_margintop">38.0dip</dimen>
+    
+     <!-- 轻基金的banner高度 -->
+    <dimen name="banner_height">150.0dip</dimen>
+     <!-- 轻基金的banner整体表现marginTop:banner height-dot height -->
+    <dimen name="banner_representation_marginTop">100.0dip</dimen>
+    <dimen name="banner_representation_marginRight">100.0dip</dimen>
+    
+    <!-- 快查输入框 -->
+    <dimen name="stock_search_editText_paddingLeft">60.0dip</dimen>
+    <dimen name="stock_search_editText_height">50.0dip</dimen>
+    <dimen name="stock_search_image_height">40.0dip</dimen>
+    <dimen name="stock_search_leftPart_minWidth">100.0dip</dimen>
+    
+     <!-- 层级标题背景高度 -->
+    <dimen name="layer_title_height">36.0dip</dimen>
+    
+    <!-- slidingmenu的阴影 -->
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+
+    <!-- 3.0 -->
+    <!-- 导航 -->
+    <dimen name="actionbar_height">48dp</dimen><!-- 头部导航栏高度 -->
+    <dimen name="actionbar_textsize">22sp</dimen><!-- 导航标题文字大小 -->
+    <dimen name="actionbar_bt_height">32dp</dimen><!-- 导航按钮高度 -->
+    <dimen name="actionbar_iconsize">28dp</dimen><!-- 导航栏icon大小28dp*28dp -->
+    
+    <dimen name="bottombar_height">4dp</dimen><!-- 底部导航高度 -->
+    <!-- 字体大小 -->
+    <dimen name="textsize_h1">22sp</dimen><!-- 用于导航标题，界面文章的大标题 -->
+    <dimen name="textsize_h2">18sp</dimen><!-- 正文，应用于大部分文本 -->
+    <dimen name="textsize_h3">14sp</dimen><!-- 次要内容 -->
+    <dimen name="textsize_h4">12sp</dimen><!-- 次要的提醒性文字 -->
+    <!-- 按钮 -->
+    
+    <!-- 头像 -->
+    <dimen name="head_round_radius">2px</dimen><!-- 头像圆角半径 -->
+    <dimen name="head_size_b">64dp</dimen><!-- 大头像 -->
+    <dimen name="head_size_s">48dp</dimen><!-- 小头像 -->
+    
+    <dimen name="round_head_size">32dp</dimen><!-- 圆形头像大小  用于讨论列表 -->
+    
+    <!-- Talk Frame  -->
+    <dimen name="talkbox_height">88dp</dimen><!-- 对话框高度 -->
+    <dimen name="talkbox_line_height">2dp</dimen><!-- 对话框顶部线条高度 -->
+    
+    <!-- Share Bar -->
+    <dimen name="sharebar_height">38dp</dimen>
+    <dimen name="sharebar_line_height">2dp</dimen>
+    
+    <!-- Data Frame -->
+    <dimen name="dataframe_height">90dp</dimen>
+    <dimen name="dataframe_line_height">1dp</dimen>
+    
+    <!-- 评论、宣言编辑框 -->
+    <dimen name="edit_height">122dp</dimen>
+    <dimen name="edit_line_height">1dp</dimen>
+    <dimen name="editbox_radius">4px</dimen>
+    <dimen name="editbox_height">70dp</dimen>
+</resources>

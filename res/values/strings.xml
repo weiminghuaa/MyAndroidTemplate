@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version">V 1.1.0</string>
+    <string name="phoneno">客服电话:</string>
+    <string name="wangzhi">官方网站:</string>
+    <string name="number">020-66618988</string>
+    <string name="address">www.wlstock.com</string>
+    <string name="trade_reason">买卖理由</string>
+    
+
+    <string name="hello">Hello World, WlfundActivity!</string>
+    <string name="dialog_network_title">温馨提示</string>
+    <string name="dialog_network_msg">正在加载中...</string>
+    <string name="dialog_nonetwork_msg">网络无法连接</string>
+    <string name="button_ok">确定</string>
+    <string name="button_update">更新</string>
+    <string name="update_text">发现新版本</string>
+    <string name="account">账号</string>
+    <string name="operation">操作</string>
+    <string name="info">资料</string>
+    <string name="app_name">MyAndroidTemplate</string>
+    <string name="quitapp">确认退出轻基金吗？</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="loading">登陆中...</string>
+    <string name="feed_back">问题反馈</string>
+    <string name="set">设置</string>
+    <string name="rss">订阅</string>
+    <string name="back">返回</string>
+    <string name="person_info">个人资料</string>
+    <string name="person_account">账号和密码</string>
+    <string name="bind_phone">绑定手机</string>
+    <string name="bind_decription">绑定手机，送100元代金卷。</string>
+    <string name="mobile_number">手机号码</string>
+    <string name="verfication_code">验\u0020\u0020证\u0020\u0020码</string>
+    <string name="get_verfication_code">获取验证码</string>
+    <string name="head_photo">个人头像</string>
+    <string name="introduction">简介</string>
+    <string name="sex">性别</string>
+    <string name="nick_name">昵称</string>
+    <string name="city">城市</string>
+    <string name="about_user">欢迎登录</string>
+    <string name="about_us">版本说明</string>
+    <string name="commission">佣金信息</string>
+    <string name="set_plug">插件设置</string>
+    <string name="set_accept_sms">接收10强赛短信</string>
+    <string name="webaddress">官方网站</string>
+    <string name="copyright">©2011-2012\u0020WLStock</string>
+    <string name="weibo">关注我们</string>
+    <string name="radar">通知</string>
+    <string name="fund">轻基金</string>
+    <string name="haoguchi">好股池</string>
+    <string name="more_fund_mayor">查看更多轻基金操作依据</string>
+    <string name="pk_situation">PK战况</string>
+    <string name="my_chooose_band_buy">波段买入</string>
+    <string name="my_choose_middlelong_buy">中长线买入级</string>
+    <string name="band_choose_dialog_message">您挑战轻基金经理时，和他们一样，只能操作我们股票池的个股哦，比比谁的眼光更厉害吧！</string>
+    <string name="pk_account">账户</string>
+    <string name="pk_buy">买入</string>
+    <string name="pk_sale">卖出</string>
+    <string name="fund_rank">收益排行</string>
+    <string name="fund_rss">我的订阅</string>
+    <string name="focus_reason">轻依据</string>
+    <string name="focus">轻焦点</string>
+    <string name="focus_major">轻重点</string>
+    <string name="stock">股票池</string>
+    <string name="rank">最新排名</string>
+    <string name="char_history">查看聊天记录</string>
+    <string name="stock_market">全球股市行情</string>
+    <string name="stock_quotation_chart">查看行情图</string>
+    <string name="char_send">发送</string>
+    <string name="author">作者：</string>
+    <string name="income">累计收益：</string>
+    <string name="trading_time">操盘时间：</string>
+    <string name="last_trade">最新操作：</string>
+    <string name="income_precent">累计跑赢大盘：</string>
+    <string name="auto_login">自动登录</string>
+    <string name="to_register">注册新账号</string>
+    <string name="to_login">返回登录</string>
+    <string name="register">注\u0020\u0020册</string>
+    <string name="register_new_account">注册新用户</string>
+    <string name="has_account">已有账号</string>
+    <string name="register_quick">快速注册</string>
+    <string name="register_done">完成注册</string>
+    <string name="register_phone">手\u0020\u0020机\u0020\u0020注\u0020\u0020册</string>
+    <string name="register_mail">邮\u0020\u0020箱\u0020\u0020注\u0020\u0020册</string>
+    <string name="login">登\u0020\u0020\u0020\u0020录</string>
+    <string name="loginout">退出登录</string>
+    <string name="username">用\u0020\u0020户\u0020\u0020名</string>
+    <string name="password">密\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020码</string>
+    <string name="password_again">确认密码</string>
+    <string name="invite_code">邀&#x0020;&#x0020;请&#x0020;&#x0020;码:</string>
+    <string name="login_illustrate">OPPS!登录后才能查看这里内容。而且有些内容需要付费可见。&lt;font color="blue"&gt;查看详细&lt;/font&gt;</string>
+    <string name="broader_market">大盘</string>
+    <string name="shzh">上证</string>
+    <string name="hs300">沪深</string>
+    <string name="one_piece_stock">个股</string>
+    <string name="plug_installed">已安装插件</string>
+    <string name="plug_uninstalled">未安装插件</string>
+    <string name="plug_stock_clues">股票线索</string>
+    <string name="plug_light_pe">轻私募</string>
+    <string name="plug_investor_union">股民联盟</string>
+    <string name="plug_light_pe_star">轻私募之星</string>
+    <string name="plug_hgd_king">好股道九五之尊版</string>
+    <string name="product_name_label">当前使用产品：</string>
+    <string name="product_name">好股道通用版</string>
+    <string name="fee_label">费用：</string>
+    <string name="fee">永久免费</string>
+    <string name="contact_phone_label">客服电话：</string>
+    <string name="contact_phone">02066618988</string>
+    <string name="update_label">可升级产品：</string>
+    <string name="hgd_roger">好股道金蟾营</string>
+    <string name="hgd_gentleman">好股道金蟾绅</string>
+    <string name="hgd_king">好股道九五金蟾</string>
+    <string name="app_name_label">APP名称：</string>
+    <string name="company_label">开发公司：</string>
+    <string name="jinsheng_ltd">广州锦生网络科技有限公司</string>
+    <string name="version_label">当前版本号：</string>
+    <string name="evaluate">软件不错，去给个好评！</string>
+    <string name="income_info">收入信息</string>
+    <string name="expense_info">支出信息</string>
+    <string name="claim">申请提取</string>
+    <string name="balance">当前余额：</string>
+    <string name="title_change_pass">帐号与密码</string>
+    <string name="password_old">原\u0020\u0020密\u0020\u0020码</string>
+    <string name="password_new">新\u0020\u0020密\u0020\u0020码</string>
+    
+    <string name="msg_pass_null">密码不能为空</string>
+    <string name="msg_pass_no_same">两次输入的密码不一致</string>
+    <string name="week_profit_rate">周收益：</string>
+    
+    <string name="button_subscrible">订\u0020\u0020\u0020\u0020阅</string>
+    <string name="button_unsubscrible">取消订阅</string>
+    
+    <!-- toast -->
+    <string name="toast_nologin">请先登录</string>
+    <string name="toast_nopermission">权限不足 </string>
+    <string name="save_pass_button">更改密码 </string>
+    
+     <string name="push_to_refresh">下拉刷新 </string>
+     <string name="last_refresh">上次更新 </string>
+     <string name="register_account">注册账号 </string>
+     <string name="register_psw">注册密码 </string>
+     <string name="password_hint">请输入密码(*必填) </string>
+     <string name="username_hint">请输入用户名(*必填) </string>
+     <string name="phone_hint">请输入手机号码 </string>
+     <string name="phone">手机号码</string>
+     <string name="email_hint">请输入邮箱 </string>
+     <string name="email_address">邮箱地址 </string>
+     <string name="email_register_tips">*邮箱地址将作为取回密码的凭证 </string>
+     <string name="phone_register_tips">*如您在两分钟内未收到验证码，请拨打020-66618988人工查询 </string>
+     <string name="from_introduce">推荐以来 </string>
+     <string name="authority_text_top">你没有权限查看这里的即时信息 </string>
+     <string name="authority_text_bottom">想查看即时信息，请点击权限详情 </string>
+     <string name="authority_detail_btn">权限详情 </string>
+     <string name="authority_tip_top">        股票号后3位显示为***时，表示你没有查看该基金的权限。不要着急，过1天后该交易信息就会公开。你可以对照买卖股数、交易时间等验证是否真实操作。 </string>
+     <string name="authority_tip_bottom">        轻基金APP现在是公测期，公测期间只要验证手机号就能查看第三名至第10名轻基金的实时操作。购买好股道的付费服务，可以查看冠军和亚军的实时操作信息。 </string>
+     <string name="find_password">找回密码</string>
+     
+     <!-- 2.0 -->
+     <string name="send_button" >发送</string>
+     <string name="title_focus" >轻焦点</string>
+     
+     <!-- 引导页（第五页） -->
+     <string name="welcome_rss_details">十只轻基金不同风格，适合各种炒股需求的股民</string>
+     <string name="button_welcome">马上体验</string>
+     <string name="welcome_rank_one">最新排名:1</string><!-- 引导页的最新排名 1-->
+     <string name="welcome_rank_two">最新排名:2</string><!-- 引导页的最新排名2 -->
+     
+     <string name="pk_declaration">PK宣言</string>
+     <string name="new_in_stock_v">最\n新\n入\n池\n股</string>
+     <string name="hot_stock">热门股</string>
+     <string name="goto_stock_pool">进入股票池</string>
+     <string name="stock_pool_trends">股票池动态跟踪</string>
+     
+     <!-- 投资秘籍 -->
+     <string name="question1">假设我将所有钱买了某只股票。受金融危机影响，该公司业绩和股价都同时下挫，我不得已割肉清仓，结果赔了50%多。请问，我还会再考虑买这只股票吗？</string>
+     <string name="question2">市场上的两只股票X和Y，我非常看好X，但觉得Y也不错。两只股票最大的差异是X股性比较活跃，Y股性比较稳定。我有十万元可投入股市，下列投资组合，我会选那种：</string>
+     <string name="question3">当我持有的股票连续横盘时，我会感到：</string>
+     <string name="question4">大盘持续上扬，几乎随便买哪支股票都能挣钱，我的仓位水平更倾向：</string>
+     <string name="question5">我的某只股票正在下跌，我更倾向关注与这支股票有关的：</string>
+     <string name="question6">仔细分析后我发现了一只很有潜力的股票，正准备买进时，很多股评家表示对后市看空，这种情况下，我会：</string>
+
+     <string name="head1">炒股炒心态，成功的投资者无不具有强大的内心！</string>
+     <string name="head2">我们可能了解所有的投资规则、技巧，却无法控制自己情绪而被挡在成功之外。</string>
+     <string name="head3">其实，强大内心是可以训练出来的，首先从“认识自己”开始吧！</string>
+     
+     <string name="result_des1">对未来的恐惧让您渴望得到解脱。其实每个人都会有迷茫的时候，好好思考一下，用积极乐观的态度去面对霎时的黑暗，肯定会有不一样的感受。我们由衷的建议您在全面认识和把握这个市场、正确理解市场本质后再做出您的选择。</string>
+     <string name="result_des2">在大众情绪沸腾时懂得适时站在其对立面将会成为您制胜的法宝。但如果因为行情曾经的疲软致使您长时间观望而错失买入良机或错失卖出时机，那您可能就要为过分深思熟虑付出代价了。我们建议您在分析市场趋势的时候，一定要让自己提前充分消化盘后观察的结果，而且要让自己对结果有充足的自信，这样，才能在盘中把自己情绪的负面影响降到尽可能低的程度。</string>
+     <string name="result_des3">当行情上扬，乐观的您一定能够收获不少赚钱的甜头，由于对后市的期望较高，相信您会更愿意买入收益预期较大的股票。我们建议您无论如何乐观，都不要在买入价格和仓位上出现太大偏差，以免造成盈亏的相对放大，风险失控。</string>
+     <string name="result_des4">如果市场情绪出现极度狂热，那行情一般都是处于上涨的末期，同时在投资者的眼里几乎没有看到风险二字。不知您是不是也有就算砸锅卖铁也要买股票的想法呢？我们建议您应该重新重视市场系统性风险，善于总结历史的亏损教训。在人的无限欲望面前，在欲望不断膨胀，骄傲不可一世的时候，我们应该慢慢学会舍得。</string>
+     <string name="result_des5">您的信心一定非常坚定，甚至会把一些重要的利空消息进行自我过滤。正是因为担心您的自信过度膨胀，我们衷心建议您适当降低收益预期，正确看待股价波动与起伏。我们知道投资追求的是资金增值,永恒的话题必定是规避风险,但现实与理想总是存在差距,人性的弱点让人难以接受自身的错误.如果将来您的预期与现实出现偏差，请您一定要坦然面对，并虚心接受、认真剥析错误带来的后果，最终成功必然亲近于你。</string>
+</resources>

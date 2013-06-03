@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 文字大小 -->
+    <dimen name="text_h1">30sp</dimen>
+    <dimen name="text_h2">22sp</dimen>
+    <dimen name="text_h3">20sp</dimen>
+    <dimen name="text_h4">18sp</dimen>
+    <dimen name="text_h5">14sp</dimen>
+    <dimen name="text_h6">16sp</dimen><!-- 专用于底部tab -->
+    <dimen name="text_fund_number">40sp</dimen><!-- 专用于底部tab -->
+
+	<!-- tabbar的高度-->
+	<dimen name="tabbar_height">54.0dip</dimen>
+	
+	<!-- tableview的行高\列宽 -->
+    <dimen name="tableview_rowheight">50.0dip</dimen>
+    <dimen name="tableview_columnwidth">100.0dip</dimen>
+    <dimen name="tableview_leftpartwidth">120.0dip</dimen>
+    
+    <!-- 除miantab外的othertab的margintop -->
+    <dimen name="othertab_margintop">44.0dip</dimen>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="trans">#00000000</color>
+    <color name="thirty_transparent_black">#4d000000</color>
+    <color name="color_gold">#b89766</color>
+    <color name="list_view_cache_color">#f3f3f4</color>
+    <color name="text_color_normal">#5f626a</color>
+    <color name="text_color_read">#383838</color>
+    <color name="text_color_weak">#c6c9cc</color>
+    <color name="text_color_blue">#023b88</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+    <color name="green">#008000</color>
+    <color name="link">#ff0083cd</color>
+    <color name="checkbox_bg">#ffffffff</color>
+    <color name="input_bg">#fffff8d0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="unsubscrible">#b90001</color>
+    <color name="window_bg">#ffeef1f3</color>
+    
+    <!-- 2.0 -->
+    <color name="text_color_title">#fff</color><!-- 适用于标题，抬头 -->
+    <color name="text_color_content">#ebecf0</color><!-- 适用于正文，文本，切换按钮等 -->
+    <color name="text_color_sub_titile">#909090</color><!-- 试用于标题下级概括文本等 -->
+    <color name="text_color_tip">#6f6f6f</color><!-- 适用于级别最低的提示性文本 -->
+    <!--  color name="text_color_yellow">#fcdf4d</color--><!-- 黄色字体，只用于当天发布文章的时间颜色 -->
+    <!--color name="text_color_red">#ff1616</color--><!-- 红色字体 -->
+    <!--color name="text_color_green">#10dc10</color--><!-- 绿色字体 -->
+    
+    <color name="button_color_white">#fff</color><!-- 适用于红色，黑色按钮 -->
+    <color name="button_color_black">#000</color><!-- 适用于黄色，橙色按钮 -->
+    <color name="button_color_lightgray">#3e474d</color><!-- 适用于白色底 -->
+    
+    <color name="background_color">#3a3a3a</color><!-- 适用于除设置页面外各个页面 -->
+    <color name="background_color2">#0c0c0c</color><!-- 适用于设置页面 -->
+    
+    <color name="lightyellow">#fcdf4d</color><!-- 明黄 -->
+    <color name="gainsboro">#868686</color><!-- 浅灰 -->
+    <color name="darkgray">#424242</color><!-- 炭灰 -->
+    <color name="darkblack">#212121</color><!-- 炭黑 -->
+    <color name="ironblack">#242528</color><!-- 铁黑 -->
+    
+    <!-- 3.0 -->
+    <color name="gray">#909090</color><!--灰色   -->
+    <color name="radio_bg_color">#3573c8</color>
+    <color name="radio_bg_color_t">#fff</color>
+    <color name="radio_text_color">#fff</color>
+    <color name="radio_text_color_t">#3573c8</color>
+    <!-- 导航 -->
+    <color name="action_bar_color_black">#000</color><!-- 导航区域的背景色 -->
+    
+    <!-- 字体颜色 -->
+    <color name="text_color_black">#000</color><!-- 黑色 正文颜色，应用于白色背景下 -->
+    <color name="text_color_white">#fff</color><!-- 白色 正文颜色，应用于黑色背景下 -->
+    <color name="text_color_gray">#909090</color><!--灰色  应用于提示文字 -->
+    <color name="text_color_orange">#ff6700</color><!-- 橙色 应用于页面最重点文字 -->
+    <color name="text_color_red">#ff0104</color><!-- 红色 -->
+    <color name="text_color_green">#0caa4a</color><!-- 绿色 -->
+    <color name="text_color_yellow">#fed903</color><!-- 黄色 -->
+    
+    <!-- 层级前面的标识颜色 -->
+    <color name="floor_color1">#ffd209</color><!-- 第一层 -->
+    <color name="floor_color2">#87c0ff</color>
+    <color name="floor_color3">#ff6900</color>
+    <color name="floor_color4">#08e5ed</color>
+    
+    <!-- Talk Frame -->
+    <color name="talkbox_color">#161616</color><!-- 对话框背景颜色 -->
+    <color name="talkbox_line_color">#2c2c2c</color><!-- 对话框顶部线条颜色 -->
+    
+    <!-- Share Bar -->
+    <color name="sharebar_color">#161616</color>
+    <color name="sharebar_line_color">#2c2c2c</color>
+    
+    <!-- Data Frame -->
+    <color name="dataframe_color">#121212</color>
+    <color name="dataframe_line_color">#202020</color>
+    
+    <!-- 评论、PK宣言编辑框 -->
+    <color name="edit_bg_color">#3c3e40</color><!-- 编辑框背景颜色 -->
+    <color name="edit_tline_color">#505253</color><!-- 编辑框顶部线条颜色 -->
+    <color name="edit_bline_color">#1d2024</color><!-- 编辑框底部线条颜色 -->
+    <color name="edit_cursor_color">#124695</color><!-- 编辑框光标颜色 -->
+    
+</resources>
