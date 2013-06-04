@@ -20,7 +20,7 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/Default" >
-        <activity android:name=".ui.user.MainActivity" >
+        <activity android:name=".ui.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
