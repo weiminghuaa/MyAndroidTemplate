@@ -29,6 +29,7 @@ public class RightSlidingMenuFragment extends Fragment {
 		public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 			// 改变item的背景
 			if (rightListFocusItemPosition == position) {
+				((MainActivity)getActivity()).getSlidingMenu().showContent();
 				return;
 			} else {
 				parent.getChildAt(rightListFocusItemPosition).setBackgroundResource(0);

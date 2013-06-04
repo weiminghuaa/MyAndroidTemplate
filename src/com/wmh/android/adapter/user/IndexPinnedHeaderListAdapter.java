@@ -7,7 +7,6 @@ import android.content.Context;
 import android.view.View;
 
 import com.wmh.android.adapter.PinnedHeaderListAdapter;
-import com.wmh.android.ui.user.IndexActivity;
 
 /**
  * index页面的置顶滑动listview adapter

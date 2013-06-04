@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.wmh.android.R;
 import com.wmh.android.adapter.CustomerPagerAdapter;
+import com.wmh.android.ui.MainActivity;
 import com.wmh.android.widget.slidingmenu.SlidingMenu;
 
 import android.app.Activity;
@@ -45,7 +46,7 @@ public class TestFragment extends Fragment {
 			imageViews.add(tempImageView);
 		}
 		pager.setAdapter(new CustomerPagerAdapter(imageViews));
-		((MainActivity) getActivity()).getSlidingMenu().setTouchModeAbove(
+		((MainActivity)getActivity()).getSlidingMenu().setTouchModeAbove(
 				SlidingMenu.TOUCHMODE_ENABLE_LEFT_SLIDING_IN_VIEWPAGER);
 		pager.setOnPageChangeListener(new OnPageChangeListener() {
 
